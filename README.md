@@ -3,11 +3,14 @@
 # Expense Tracker Application
 
 <!-- ![App Screenshot](./assets/screenshots/1.jpeg) -->
+  <div style="display: flex; justify-content: space-around;">
   <img src="./assets/screenshots/1.jpeg" width="200">
-   <img src="./assets/screenshots/2.jpeg" width="200">
-    <img src="./assets/screenshots/3.jpeg" width="200">
+  <img src="./assets/screenshots/2.jpeg" width="200">
+  <img src="./assets/screenshots/3.jpeg" width="200">
+</div>
 
-)
+
+
 
 
 
