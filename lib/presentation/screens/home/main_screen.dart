@@ -7,7 +7,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 
 import '../../../application/get_expenses_bloc/get_expenses_bloc.dart';
-import '../../../domain/data/data.dart';
 import '../../../domain/src/models/expense.dart';
 
 class MainScreen extends StatelessWidget {

@@ -39,6 +39,7 @@ dependencies:
   flutter_colorpicker: ^1.0.3
   path_provider:
   font_awesome_flutter: ^10.6.0
+  flutter_local_notifications:
 
   hive:
   hive_flutter: ^1.1.0
@@ -49,6 +50,8 @@ dev_dependencies:
   flutter_lints: ^4.0.0
   hive_generator: 
   build_runner: 
+  mocktail: 
+  bloc_test: 
 
   flutter_test:
     sdk: flutter
