@@ -8,6 +8,7 @@ import 'package:hive/hive.dart';
 import 'application/simple_bloc_observer.dart';
 import 'domain/src/models/category.dart';
 import 'domain/src/models/expense.dart';
+import 'infrastructure/i_notification_repo.dart';
 
 late final categoryBox;
 late final expenseBox;
@@ -26,6 +27,9 @@ void main() async {
   // Open Boxes
   categoryBox = await Hive.openBox<Category>('categories');
   expenseBox = await Hive.openBox<Expense>('expenses');
+  await NotificationService().initialize();
+  await requestAndroidPermissions();
+
   Bloc.observer = SimpleBlocObserver();
   runApp(const MyApp());
 }
