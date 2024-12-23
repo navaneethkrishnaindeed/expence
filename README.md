@@ -1,4 +1,12 @@
+
+
 # Expense Tracker Application
+
+![App Screenshot](./assets/screenshots/1.jpeg)
+![App Screenshot](./assets/screenshots/2.jpeg)
+![App Screenshot](./assets/screenshots/3.jpeg)
+
+
 
 ## Overview
 The **Expense Tracker Application** is a Flutter-based app that allows users to manage their expenses efficiently. It provides functionality for categorizing, adding, updating, deleting, and viewing expenses. Data is persisted using the Hive database, ensuring offline availability. The app leverages the Bloc pattern for state management, ensuring a clean and scalable architecture.
