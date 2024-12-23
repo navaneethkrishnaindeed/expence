@@ -2,7 +2,9 @@
 
 # Expense Tracker Application
 
-![App Screenshot](./assets/screenshots/1.jpeg)
+<!-- ![App Screenshot](./assets/screenshots/1.jpeg) -->
+  <img src="./assets/screenshots/1.jpeg" width="300">
+
 ![App Screenshot](./assets/screenshots/2.jpeg)
 ![App Screenshot](./assets/screenshots/3.jpeg)
 
